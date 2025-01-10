@@ -1,7 +1,7 @@
 {
   "name": "@superlbr/vite-plugun-env-dts",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate .d.ts for envs in envDir",
   "author": "Season Chen season.chen.i@foxmail.com> (https://github.com/ccqgithub/)",
   "license": "MIT",
@@ -27,7 +27,7 @@
     "release": "npm publish --access=public"
   },
   "peerDependencies": {
-    "vite": "^5.4.11"
+    "vite": "^6.0.7"
   },
   "dependencies": {
     "dotenv": "^16.4.7",
