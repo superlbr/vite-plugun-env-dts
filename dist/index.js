@@ -1,9 +1,9 @@
 // src/index.ts
-import path2 from "path";
+import path2 from "node:path";
 
 // src/envDts.ts
-import path from "path";
-import * as fs from "fs";
+import path from "node:path";
+import * as fs from "node:fs";
 import watch from "node-watch";
 import dotenv from "dotenv";
 import { minimatch } from "minimatch";
@@ -87,7 +87,7 @@ var envDtsPlugin = (options = {}) => {
     }
   };
 };
-var src_default = envDtsPlugin;
+var index_default = envDtsPlugin;
 export {
-  src_default as default
+  index_default as default
 };

@@ -28,11 +28,11 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
 // src/index.ts
-var src_exports = {};
-__export(src_exports, {
-  default: () => src_default
+var index_exports = {};
+__export(index_exports, {
+  default: () => index_default
 });
-module.exports = __toCommonJS(src_exports);
+module.exports = __toCommonJS(index_exports);
 var import_node_path2 = __toESM(require("path"), 1);
 
 // src/envDts.ts
@@ -121,4 +121,4 @@ var envDtsPlugin = (options = {}) => {
     }
   };
 };
-var src_default = envDtsPlugin;
+var index_default = envDtsPlugin;
